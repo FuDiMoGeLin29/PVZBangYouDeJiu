@@ -1152,34 +1152,44 @@
     <None Include="Docs\pvz1051函数表3.3743.1157.xlsx">
       <Filter>Docs</Filter>
     </None>
-    <None Include="PVZ\CheckboxVFunc.asm">
-      <Filter>PVZ</Filter>
-    </None>
-    <None Include="PVZ\DialogButtonVFunc.asm">
-      <Filter>PVZ</Filter>
-    </None>
-    <None Include="PVZ\DialogVFunc.asm">
-      <Filter>PVZ</Filter>
-    </None>
-    <None Include="PVZ\LawnDialogVFunc.asm">
-      <Filter>PVZ</Filter>
-    </None>
-    <None Include="PVZ\ListWidgetVFunc.asm">
-      <Filter>PVZ</Filter>
-    </None>
-    <None Include="PVZ\ReanimationWidgetVFunc.asm">
-      <Filter>PVZ</Filter>
-    </None>
-    <None Include="PVZ\WidgetContainerVFunc.asm">
-      <Filter>PVZ</Filter>
-    </None>
-    <None Include="PVZ\WidgetVFunc.asm">
-      <Filter>PVZ</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="PVZ\ButtonWidgetVFunc.asm">
       <Filter>PVZ</Filter>
     </MASM>
+    <MASM Include="PVZ\CheckboxVFunc.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="PVZ\DialogButtonVFunc.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="PVZ\DialogVFunc.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="PVZ\LawnDialogVFunc.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="PVZ\ListWidgetVFunc.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="PVZ\ReanimationWidgetVFunc.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="PVZ\WidgetContainerVFunc.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="PVZ\WidgetVFunc.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bgm.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="活跃黑江乐 - 「邦友的酒(DJ版)」梦的结唱halo.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
   </ItemGroup>
 </Project>

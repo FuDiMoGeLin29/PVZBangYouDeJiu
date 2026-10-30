@@ -494,6 +494,9 @@
       <FileType>Document</FileType>
     </MASM>
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="活跃黑江乐 - 「邦友的酒(DJ版)」梦的结唱halo.mp3" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
