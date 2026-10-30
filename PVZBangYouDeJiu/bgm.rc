@@ -1,0 +1,2 @@
+// 把 BGM 嵌入 DLL：资源 id = 1，类型 RCDATA
+1 RCDATA "bgm.mp3"

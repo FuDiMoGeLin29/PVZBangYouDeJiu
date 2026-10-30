@@ -1,0 +1,1185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HookAsm">
+      <UniqueIdentifier>{19cbcf81-6131-43ed-bc60-4baa45bdbc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookAsm\Zydis">
+      <UniqueIdentifier>{dbb7b7c1-b3b0-48ce-b4d8-3234874ffc3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookAsm\asmjit">
+      <UniqueIdentifier>{0db722ad-825f-401d-b430-cd8745c87b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookAsm\asmjit\arm">
+      <UniqueIdentifier>{4540c617-99cd-4fd4-8a52-9bf2a909c4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookAsm\asmjit\axl">
+      <UniqueIdentifier>{6437734e-12f2-429c-8863-23987b12f3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookAsm\asmjit\core">
+      <UniqueIdentifier>{3db9c004-1273-49e7-8d2b-0c24c439638c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookAsm\asmjit\ujit">
+      <UniqueIdentifier>{7218431c-f740-420e-a964-3d3c44446c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookAsm\asmjit\x86">
+      <UniqueIdentifier>{8acb5195-2bb0-41bc-9c80-6af1cb30aeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{438e6749-4a9d-430c-a7ae-f3fef3e11dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FudimoLib">
+      <UniqueIdentifier>{9b956834-5cdc-4d4b-99f1-6c0ae377d519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PVZ">
+      <UniqueIdentifier>{41596c48-472a-4972-8dd5-61135d79ef4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PVZMessageSystem">
+      <UniqueIdentifier>{b161eada-a564-428a-a3db-15b1fd58484c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\HookAsm.h">
+      <Filter>HookAsm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\Zydis\Zydis.h">
+      <Filter>HookAsm\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\a64.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\asmjit.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\build_scope_begin.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\build_scope_end.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\host.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\ujit.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86.h">
+      <Filter>HookAsm\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_arch_traits_p.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_assembler.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_builder.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_compiler.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_emit_helper_p.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_emitter.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_formatter_p.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_func_p.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_globals.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_inst_api_p.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_inst_db.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_inst_db_p.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_operand.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\a64_ra_pass_p.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\arm_formatter_p.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\arm_globals.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\arm\arm_utils.h">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\algorithm.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\arena.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\arena_bit_set_p.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\arena_hash.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\arena_list.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\arena_pool.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\arena_string.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\arena_tree.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\arena_vector.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\bit_set_utils.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\build_integration.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\commons.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\inplace_array.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\inplace_bit_set.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\inplace_queue.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\inplace_stack.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\inplace_storage.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\inplace_string.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\span.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\string_index.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\string_utils.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\axl\support_p.h">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\arch_commons.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\arch_traits.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\assembler.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\build_defs.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\build_export_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\builder.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\builder_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\code_buffer.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\code_holder.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\code_writer_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\compiler.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\compiler_defs.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\const_pool.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\cpu_info.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\debug_utils.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\emit_helper_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\emitter.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\emitter_utils_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\environment.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\error.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\error_handler.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\fixup.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\formatter.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\formatter_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\func.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\func_args_context_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\globals.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\inst.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\inst_db_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\jit_allocator.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\jit_runtime.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\logger.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\misc_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\operand.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\os_utils.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\os_utils_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\pauth.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\pauth_utils_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_assignment_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_cfg_block_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_cfg_builder_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_constraints_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_defs_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_inst_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_local_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_pass_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_reg_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\ra_stack_p.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\string.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\target.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\type.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\core\virt_mem.h">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_arch_traits_p.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_assembler.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_builder.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_compiler.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_emit_helper_p.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_emitter.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_formatter_p.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_func_p.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_globals.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_inst_api_p.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_inst_db.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_inst_db_p.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_opcode_p.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_operand.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\x86\x86_ra_pass_p.h">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\ujit\ujit_base.h">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\ujit\uni_compiler.h">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\ujit\uni_compiler_utils_p.h">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\ujit\uni_condition.h">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\ujit\uni_op.h">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\asmjit\ujit\vec_const_table.h">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClInclude>
+    <ClInclude Include="HookAsm\HookRelocator32.h">
+      <Filter>HookAsm</Filter>
+    </ClInclude>
+    <ClInclude Include="FudimoLib\FudimoCommon.h">
+      <Filter>FudimoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FudimoLib\GraphicsEx.h">
+      <Filter>FudimoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FudimoLib\MathEx.h">
+      <Filter>FudimoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="FudimoLib\RectEx.h">
+      <Filter>FudimoLib</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\AlmanacDialog.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Attachment.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\AutoCrit.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Board.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Buffer.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\ButtonListener.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\ButtonWidget.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Challenge.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Checkbox.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\CheckboxListener.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Coin.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Color.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Common.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\CritSect.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\CursorObject.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Cutscene.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\DataArray.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\DDImage.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Definition.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Dialog.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\DialogButton.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\DialogListener.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\EffectSystem.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\FilterEffect.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Flags.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Font.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\GameButton.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\GameObject.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\GameSelector.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Graphics.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\GridItem.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Image.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Insets.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\KeyCodes.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\LawnApp.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\LawnCommon.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\LawnDialog.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\LawnMower.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\ListListener.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\ListWidget.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\MemoryImage.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\PakInterface.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Plant.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\PlayerInfo.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Point.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Projectile.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\PVZ.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Ratio.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\ReanimationLawn.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Reanimator.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Rect.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\res_map.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\ResourceManager.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Resources.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SaveGame.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\ScrollListener.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SeedChooserScreen.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SeedPacket.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SexyApp.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SexyAppBase.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SexyCommon.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SexyMatrix.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SexyVector.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SharedImage.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Slider.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\SliderListener.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\std_string_PVZ.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\std_wstring_PVZ.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\TodCommon.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\TodDebug.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\TodFoley.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\TodList.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\TodParticle.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\TodStringFile.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\ToolTipWidget.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\TriVertex.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\UnknownClass.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Widget.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\WidgetContainer.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\WidgetManager.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZ\Zombie.h">
+      <Filter>PVZ</Filter>
+    </ClInclude>
+    <ClInclude Include="PVZMessageSystem\PVZMessageSystem.h">
+      <Filter>PVZMessageSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AsmExtra.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNewOperator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PtrAPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\HookAsm.cpp">
+      <Filter>HookAsm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\Zydis\Zydis.c">
+      <Filter>HookAsm\Zydis</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_assembler.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_builder.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_compiler.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_emit_helper.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_formatter.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_func.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_inst_api.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_inst_db.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_inst_test.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_operand_test.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\a64_ra_pass.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\arm\arm_formatter.cpp">
+      <Filter>HookAsm\asmjit\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\algorithm_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_bit_set.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_bit_set_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_hash.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_hash_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_list_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_tree_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_vector.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\arena_vector_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\bit_set_utils_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\commons_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\string_index_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\axl\string_utils_test.cpp">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\arch_traits.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\assembler.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\builder.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\code_holder.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\code_holder_test.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\code_writer.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\compiler.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\const_pool.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\const_pool_test.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\cpu_info.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\debug_utils.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\emit_helper.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\emitter.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\emitter_utils.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\environment.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\error.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\error_handler.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\formatter.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\func.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\func_args_context.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\func_test.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\inst.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\inst_db.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\jit_allocator.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\jit_allocator_test.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\jit_runtime.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\logger.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\operand_test.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\os_utils.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\pauth.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\ra_local.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\ra_pass.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\ra_stack.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\string.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\string_test.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\target.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\type.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\virt_mem.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\core\virt_mem_test.cpp">
+      <Filter>HookAsm\asmjit\core</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_assembler.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_builder.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_compiler.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_emit_helper.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_formatter.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_func.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_inst_api.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_inst_db.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_inst_test.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_operand_test.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\x86\x86_ra_pass.cpp">
+      <Filter>HookAsm\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\ujit\uni_compiler_a64.cpp">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\ujit\uni_compiler_x86.cpp">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\asmjit\ujit\vec_const_table.cpp">
+      <Filter>HookAsm\asmjit\ujit</Filter>
+    </ClCompile>
+    <ClCompile Include="HookAsm\HookRelocator32.cpp">
+      <Filter>HookAsm</Filter>
+    </ClCompile>
+    <ClCompile Include="FudimoLib\GraphicsEx.cpp">
+      <Filter>FudimoLib</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\AlmanacDialog.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Attachment.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Board.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Buffer.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\ButtonWidget.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Challenge.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Checkbox.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Coin.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Color.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Common.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\CritSect.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\CutScene.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\DDImage.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Dialog.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\DialogButton.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\FilterEffect.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Flags.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Font.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\GameButton.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\GameObject.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Graphics.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\GridItem.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Image.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Insets.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\KeyCodes.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\LawnApp.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\LawnCommon.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\LawnDialog.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\LawnMower.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\ListWidget.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\MemoryImage.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\PakInterface.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Plant.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Projectile.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Ratio.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\ReanimationLawn.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Reanimator.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\res_map.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\ResourceManager.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Resources.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\SaveGame.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\SeedChooserScreen.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\SeedPacket.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\SexyAppBase.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\SexyCommon.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\SexyMatrix.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\SharedImage.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Slider.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\std_string_PVZ.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\TodCommon.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\TodParticle.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\TodStringFile.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\ToolTipWidget.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Widget.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\WidgetContainer.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\WidgetManager.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZ\Zombie.cpp">
+      <Filter>PVZ</Filter>
+    </ClCompile>
+    <ClCompile Include="PVZMessageSystem\PVZMessageSystem.cpp">
+      <Filter>PVZMessageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AsmExtra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="HookAsm\asmjit\asmjit.natvis">
+      <Filter>HookAsm\asmjit</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HookAsm\asmjit\axl\README.md">
+      <Filter>HookAsm\asmjit\axl</Filter>
+    </None>
+    <None Include="Docs\pvz1051函数表3.3743.1157.xlsx">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="PVZ\CheckboxVFunc.asm">
+      <Filter>PVZ</Filter>
+    </None>
+    <None Include="PVZ\DialogButtonVFunc.asm">
+      <Filter>PVZ</Filter>
+    </None>
+    <None Include="PVZ\DialogVFunc.asm">
+      <Filter>PVZ</Filter>
+    </None>
+    <None Include="PVZ\LawnDialogVFunc.asm">
+      <Filter>PVZ</Filter>
+    </None>
+    <None Include="PVZ\ListWidgetVFunc.asm">
+      <Filter>PVZ</Filter>
+    </None>
+    <None Include="PVZ\ReanimationWidgetVFunc.asm">
+      <Filter>PVZ</Filter>
+    </None>
+    <None Include="PVZ\WidgetContainerVFunc.asm">
+      <Filter>PVZ</Filter>
+    </None>
+    <None Include="PVZ\WidgetVFunc.asm">
+      <Filter>PVZ</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="PVZ\ButtonWidgetVFunc.asm">
+      <Filter>PVZ</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
